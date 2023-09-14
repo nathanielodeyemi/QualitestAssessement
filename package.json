@@ -1,0 +1,22 @@
+{
+  "name": "katalon",
+  "version": "1.0.0",
+  "description": "Cypress BDD Project",
+  "main": "index.js",
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/."
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathaniel",
+  "license": "ISC"
+}
